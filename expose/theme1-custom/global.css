@@ -667,3 +667,14 @@ display: inline-block;
 height: 10px;
 min-width: 1px;
 }
+
+.voice {}
+.voice--teresa {
+	font-family: "Abel";
+	font-style: italic;
+}
+.voice--tom {
+	font-family: "Ropa Sans";
+	font-style: italic;
+	font-weight: 400;
+}
