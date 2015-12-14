@@ -3,7 +3,7 @@ top: 0
 left: 25
 width: 70
 ---
-<!-- Tom Font -->
+<span class="voice--tom">
 We've also had a lot of visitors this year.
 My sister and brother-in-law visited at the beginning of the year,
 and we had a great time brunching in Brooklyn together.
@@ -13,8 +13,9 @@ joining him for his third showing on opening day.
 I had a great time exploring the upper west side of Manhattan with my mom.
 And I got to be the tour guide on my dad and step-mom's first visit to Brooklyn.
 Here's to even more visits and adventures in 2016.
+</span>
 
-<!-- Teresa Font -->
+<span class="voice--teresa">
 This winter, my dad came to visit NYC for his first time since before I was born,
 and my friend Kathryn came to visit from Istanbul.
 This summer, my childhood friend Cindy,
@@ -26,11 +27,16 @@ all for various reasons and at different times.
 — Molly, Haley, and Kim —
 whom I see on a regular basis, because it's so wonderful to see them as often as I do.
 But they actually live here in Brooklyn now, too, so aren't visitors.)
+</span>
 
+<span class="voice--teresa">
 I'm also so lucky to have relatives who repeatedly come to New York,
 my mom's cousin Sarah and her husband David,
 and her son Adam and his wife Liz.
 It helps that they used to live here and always have so many reasons to come back.
+</span>
 
+<span class="voice--teresa">
 Last, but certainly not least, my sister Carole and her husband Tim are coming to Brooklyn for Christmas.
 It will be their first time visiting since I've moved here, and I couldn't be more excited.
+</span>

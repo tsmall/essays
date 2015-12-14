@@ -9,8 +9,10 @@ We're now a couple blocks away from Fort Greene Park,
 right in the middle of a bunch of great restaurants,
 and only a 10 minute walk from Pratt.
 
-<!-- Tom Font -->
+<span class="voice--tom">
 I moved down from Harlem, on the West side.
+</span>
 
-<!-- Teresa Font -->
+<span class="voice--teresa">
 And I moved up from Flatbush.
+</span>

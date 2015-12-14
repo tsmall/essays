@@ -10,6 +10,7 @@ The conductors
 talked about the history of trolleys in Fort Collins
 and about the city itself.
 
-<!-- Teresa Font -->
+<span class="voice--teresa">
 This was nostalgic for a time before cars,
 but also for our high school years when we would ride this during the summers.
+</span>

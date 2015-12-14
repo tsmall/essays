@@ -9,7 +9,7 @@ But even despite those obligations we've managed find time to enjoy much of what
 
 We've seen some incredible shows this year:
 *Hamilton*,
-*On The Town* (<!-- Teresa -->starring my cousin, Elizabeth Stanley<!-- /Teresa -->),
+*On The Town* (<span class="voice--teresa">starring my cousin, Elizabeth Stanley</span>),
 *Les Miserables*,
 *The Curious Incident of the Dog in the Nighttime*,
 *A Gentleman's Guide to Love and Murder*,
@@ -17,7 +17,7 @@ We've seen some incredible shows this year:
 *Allegience*,
 *Danny Elfman's Music from the Films of Tim Burton* and *Ramona* at Lincoln Center,
 and lots of puppet shows in the Lower East Side
-(<!-- Tom -->some of which Teresa performed in<!-- /Tom -->).
+(<span class="voice--tom">some of which Teresa performed in</span>).
 
 We saw the New York Philharmonic play in Central Park,
 featuring a solo by Joshua Bell.
@@ -26,9 +26,10 @@ We've seen many wonderful exhibits at the Whitney, MoMA PS1, and New Museum.
 We've wandered all around the city.
 We took a trip to the North Fork of Long Island together.
 
-<!-- Teresa Font -->
+<span class="voice--teresa">
 And we go to pub trivia (almost) every week,
 with my friend Effie.
+</span>
 
 We've had some adventures this year,
 starting with...
