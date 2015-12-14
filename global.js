@@ -23,15 +23,17 @@ function drawtext(){
 	var screen_width = $(window).width();
 	
 	// set font size based on actual resolution, normalized at 14px/22px for 720
+	var min_fontsize = 14;
+	var min_lineheight = 17;
 	var fontsize = Math.floor(14*(screen_width/1280));
 	var lineheight = Math.floor(22*(screen_width/1280));
 	
-	if(fontsize < 11){
-		fontsize = 11;
+	if(fontsize < min_fontsize){
+		fontsize = min_fontsize;
 	}
 	
-	if(lineheight < 14){
-		lineheight = 14;
+	if(lineheight < min_lineheight){
+		lineheight = min_lineheight;
 	}
 	
 	$('body').css('font-size',fontsize+'px');
