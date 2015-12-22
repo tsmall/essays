@@ -7,7 +7,7 @@ On our first day we drove up Trail Ridge Road,
 into the Rocky Mountain National Park.
 
 <span class="voice--tom">
-I got to experience my first high altitude experience.
+This was my first high altitude experience.
 I watched the altimeter on my phone climb and climb as we drove up the road,
 reaching a height of 11,780 feet.
 </span>
