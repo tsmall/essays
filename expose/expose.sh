@@ -10,6 +10,12 @@ theme_dir=${theme_dir:-"theme1"}
 # URL to host the images and videos on another site, S3 for example.
 resourcepath_prefix=${resourcepath_prefix:-""}
 
+# A prefix for asset URLs. This prefix is used in front of CSS, JavaScript, and
+# image assets. If this option is set then the asset paths will be the same no
+# matter what level of depth the template is rendered. If it's not set, the
+# asset URLs will be relative to the base path.
+asset_url_prefix=${asset_url_prefix:-""}
+
 # widths to scale images to (heights are calculated from source images)
 # you might want to change this for example, if your images aren't full screen on the browser side
 resolution=(3840 2560 1920 1280 1024 640)
@@ -154,6 +160,18 @@ template () {
 		
 	value=$(echo $3 | sed -e 's/\\/\\\\/g' -e 's/\//\\\//g' -e 's/&/\\\&/g') # escape sed input
 	echo "$1" | sed "s/{{$key}}/$value/g; s/{{$key:[^}]*}}/$value/g"
+}
+
+# $1: basepath
+assetpath_prefix () {
+	local basepath="$1"
+
+	if [ -z "$asset_url_prefix" ]
+	then
+		echo "$basepath"
+	else
+		echo "$asset_url_prefix"
+	fi
 }
 
 scratchdir=$(mktemp -d 2>/dev/null || mktemp -d -t 'exposetempdir')
@@ -695,6 +713,7 @@ do
 	fi
 	
 	html=$(template "$html" basepath "$basepath")
+	html=$(template "$html" assetpath_prefix $(assetpath_prefix "$basepath"))
 	html=$(template "$html" disqus_identifier "${nav_url[i]}")
 	html=$(template "$html" resourcepath "$resourcepath_prefix")
 	
@@ -712,6 +731,7 @@ done
 
 basepath="./"
 firsthtml=$(template "$firsthtml" basepath "$basepath")
+firsthtml=$(template "$firsthtml" assetpath_prefix $(assetpath_prefix "$basepath"))
 firsthtml=$(template "$firsthtml" disqus_identifier "$firstpath")
 firsthtml=$(template "$firsthtml" resourcepath "$resourcepath_prefix$firstpath/")
 firsthtml=$(echo "$firsthtml" | sed "s/{{[^{}]*:\([^}]*\)}}/\1/g")
