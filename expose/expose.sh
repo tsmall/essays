@@ -6,6 +6,10 @@ site_title=${site_title:-"My Awesome Photos"}
 
 theme_dir=${theme_dir:-"theme1"}
 
+# A prefix to put in front of the resource path. This can be set to an absolute
+# URL to host the images and videos on another site, S3 for example.
+resourcepath_prefix=${resourcepath_prefix:-""}
+
 # widths to scale images to (heights are calculated from source images)
 # you might want to change this for example, if your images aren't full screen on the browser side
 resolution=(3840 2560 1920 1280 1024 640)
@@ -692,6 +696,7 @@ do
 	
 	html=$(template "$html" basepath "$basepath")
 	html=$(template "$html" disqus_identifier "${nav_url[i]}")
+	html=$(template "$html" resourcepath "$resourcepath_prefix")
 	
 	# set default values for {{XXX:default}} strings
 	html=$(echo "$html" | sed "s/{{[^{}]*:\([^}]*\)}}/\1/g")
@@ -708,7 +713,7 @@ done
 basepath="./"
 firsthtml=$(template "$firsthtml" basepath "$basepath")
 firsthtml=$(template "$firsthtml" disqus_identifier "$firstpath")
-firsthtml=$(template "$firsthtml" resourcepath "$firstpath/")
+firsthtml=$(template "$firsthtml" resourcepath "$resourcepath_prefix$firstpath/")
 firsthtml=$(echo "$firsthtml" | sed "s/{{[^{}]*:\([^}]*\)}}/\1/g")
 firsthtml=$(echo "$firsthtml" | sed "s/{{[^}]*}}//g; s/<ul><\/ul>//g")
 echo "$firsthtml" > "$topdir/_site"/index.html
