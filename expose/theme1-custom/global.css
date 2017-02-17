@@ -678,3 +678,7 @@ min-width: 1px;
 	font-style: italic;
 	font-weight: 400;
 }
+
+.dark {
+	color: #000;
+}
