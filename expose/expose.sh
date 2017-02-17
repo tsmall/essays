@@ -16,6 +16,11 @@ resourcepath_prefix=${resourcepath_prefix:-""}
 # asset URLs will be relative to the base path.
 asset_url_prefix=${asset_url_prefix:-""}
 
+# A prefix put in front of all of the URLs for the navigation links. If this is
+# set to something other than an empty string, the URLs will always use the
+# prefix. If it's not set, the URLs will be relative to the base path.
+nav_link_prefix=${nav_link_prefix:-""}
+
 # widths to scale images to (heights are calculated from source images)
 # you might want to change this for example, if your images aren't full screen on the browser side
 resolution=(3840 2560 1920 1280 1024 640)
@@ -171,6 +176,18 @@ assetpath_prefix () {
 		echo "$basepath"
 	else
 		echo "$asset_url_prefix"
+	fi
+}
+
+# $1: basepath
+nav_prefix () {
+	local basepath="$1"
+
+	if [ -z "$nav_link_prefix" ]
+	then
+		echo "$basepath"
+	else
+		echo "$nav_link_prefix"
 	fi
 }
 
@@ -669,7 +686,7 @@ do
 							break
 						fi
 					done
-					navigation+="<li class=\"gallery $active\"  data-image=\"${gallery_url[gindex]}\"><a href=\"{{basepath}}${nav_url[j]}\"><span>${nav_name[j]}</span></a><ul>{{marker$j}}</ul></li>"
+					navigation+="<li class=\"gallery $active\"  data-image=\"${gallery_url[gindex]}\"><a href=\"{{nav_prefix}}${nav_url[j]}\"><span>${nav_name[j]}</span></a><ul>{{marker$j}}</ul></li>"
 				fi
 				((remaining--))
 			elif [ "${nav_depth[j]}" = "$depth" ]
@@ -687,7 +704,7 @@ do
 							break
 						fi
 					done
-					substring="<li class=\"gallery $active\" data-image=\"${gallery_url[gindex]}\"><a href=\"{{basepath}}${nav_url[j]}\"><span>${nav_name[j]}</span></a><ul>{{marker$j}}</ul></li>{{marker$parent}}"
+					substring="<li class=\"gallery $active\" data-image=\"${gallery_url[gindex]}\"><a href=\"{{nav_prefix}}${nav_url[j]}\"><span>${nav_name[j]}</span></a><ul>{{marker$j}}</ul></li>{{marker$parent}}"
 				fi
 				navigation=$(template "$navigation" "marker$parent" "$substring")
 				((remaining--))
@@ -734,6 +751,7 @@ firsthtml=$(template "$firsthtml" basepath "$basepath")
 firsthtml=$(template "$firsthtml" assetpath_prefix $(assetpath_prefix "$basepath"))
 firsthtml=$(template "$firsthtml" disqus_identifier "$firstpath")
 firsthtml=$(template "$firsthtml" resourcepath "$resourcepath_prefix$firstpath/")
+firsthtml=$(template "$firsthtml" nav_prefix $(nav_prefix "$nav_link_prefix"))
 firsthtml=$(echo "$firsthtml" | sed "s/{{[^{}]*:\([^}]*\)}}/\1/g")
 firsthtml=$(echo "$firsthtml" | sed "s/{{[^}]*}}//g; s/<ul><\/ul>//g")
 echo "$firsthtml" > "$topdir/_site"/index.html
