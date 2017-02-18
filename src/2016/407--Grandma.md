@@ -1,7 +1,7 @@
 ---
-top: 10
-left: 75
-width: 20
+top: -1
+left: 1
+width: 27
 ---
 <span class="voice--teresa">
 In Denver we had dinner with my Grandma Alice,
