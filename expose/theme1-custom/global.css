@@ -12,7 +12,11 @@ html,body{
 
 a{
 	color: #fff;
+
 	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1px;
+
 	-webkit-transition: color 0.2s;
 	-moz-transition: color 0.2s;
 	-ms-transition: color 0.2s;
@@ -356,7 +360,7 @@ a.active:hover, li.active a:hover{
 	background-color: #333;
 	width: 0;
 	overflow: hidden;
-	
+
 	-webkit-transition: color 1s, background-color 1s, width 0.5s;
 	-moz-transition: color 1s, background-color 1s, width 0.5s;
 	-ms-transition: color 1s, background-color 1s, width 0.5s;
@@ -498,7 +502,7 @@ a.internal{
 }
 
 .post a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .post.hidden{
@@ -558,7 +562,7 @@ video.image{
 
 .post h1 .sub{
 	display: block;
-	margin: 10px 0 0 0;	
+	margin: 10px 0 0 0;
 	font: 300 18px/22px 'Roboto',helvetica, arial, sans-serif;
 }
 
@@ -681,4 +685,8 @@ video.image{
 
 .dark {
 	color: #000;
+}
+.dark a {
+	color: #000;
+	border-bottom-color: #000;
 }
