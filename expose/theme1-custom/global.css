@@ -1,31 +1,31 @@
 html,body{
-margin: 0;
-padding: 0;
-border: 0;
-background-color: #000;
-color: #fff;
-font: 300 14px/22px 'Roboto',helvetica, arial, sans-serif;
-width: 100%;
-height: 100%;
-padding: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #000;
+	color: #fff;
+	font: 300 14px/22px 'Roboto',helvetica, arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
 }
 
 a{
-color: #fff;
-text-decoration: none;
--webkit-transition: color 0.2s;
--moz-transition: color 0.2s;
--ms-transition: color 0.2s;
--o-transition: color 0.2s;
-transition: color 0.2s;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-ms-transition: color 0.2s;
+	-o-transition: color 0.2s;
+	transition: color 0.2s;
 }
 
 a:hover{
-color: #ffffff;
+	color: #ffffff;
 }
 
 a.active, li.active a{
-color: #dddddd;
+	color: #dddddd;
 }
 
 a.active:hover, li.active a:hover{
@@ -75,25 +75,25 @@ a.active:hover, li.active a:hover{
 /* sidebar */
 
 #sidebar{
-position: fixed;
-left: 7px;
-top: 0;
-width: 163px;
-height: 100%;
-z-index: 10;
--webkit-transition: color 1s;
--moz-transition: color 1s;
--ms-transition: color 1s;
--o-transition: color 1s;
-transition: color 1s;
-font-size: 14px;
+	position: fixed;
+	left: 7px;
+	top: 0;
+	width: 163px;
+	height: 100%;
+	z-index: 10;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+	-ms-transition: color 1s;
+	-o-transition: color 1s;
+	transition: color 1s;
+	font-size: 14px;
 }
 
 #profile{
-width: 24px;
-height: 24px;
-float: left;
-margin: 35px 13px 0 17px;
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin: 35px 13px 0 17px;
 }
 
 #profile img{
@@ -103,45 +103,45 @@ margin: 35px 13px 0 17px;
 }
 
 .foreground{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: 12;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 12;
 }
 
 .background{
-width: 100%;
-height: 100%;
-background-color: #000;
--moz-opacity: 0.7;
--webkit-opacity: 0.7;
-opacity: 0.7;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 11;
--webkit-transition: background-color 1s;
--moz-transition: background-color 1s;
--ms-transition: background-color 1s;
--o-transition: background-color 1s;
-transition: background-color 1s;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	-moz-opacity: 0.7;
+	-webkit-opacity: 0.7;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 11;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
 }
 
 #sidebar h1{
-font: 300 14px/18px 'Roboto',helvetica, arial, sans-serif;
-margin: 0;
-padding: 32px 0 20px 5px;
-float: left;
-width: 100px;
+	font: 300 14px/18px 'Roboto',helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 32px 0 20px 5px;
+	float: left;
+	width: 100px;
 }
 
 #nav{
-margin: 0;
-padding: 20px 10px 0 20px;
-float: left;
-clear: both;
+	margin: 0;
+	padding: 20px 10px 0 20px;
+	float: left;
+	clear: both;
 }
 
 #nav ul{
@@ -268,10 +268,10 @@ clear: both;
 }
 
 #share .icon{
-width: 26px;
-height: 24px;
-margin: 7px 10px 0 10px;
-background-color: #ddd;
+	width: 26px;
+	height: 24px;
+	margin: 7px 10px 0 10px;
+	background-color: #ddd;
 }
 
 .icon.hackernews{
@@ -320,12 +320,12 @@ background-color: #ddd;
 }
 
 #textbutton{
-cursor: pointer;
+	cursor: pointer;
 }
 
 /* comments */
 #comments{
-background-color: #000;
+	background-color: #000;
 }
 
 #disqus_thread{
@@ -393,161 +393,161 @@ background-color: #000;
 }
 
 #resolution.active {
-width: 120px;
+	width: 120px;
 }
 
 #resolution ul{
-bottom: 40px;
+	bottom: 40px;
 }
 
 #resolution ul li{
-height: 28px;
-line-height: 28px;
-margin-left: 10px;
+	height: 28px;
+	line-height: 28px;
+	margin-left: 10px;
 }
 
 #resolution ul li.active a{
-border-bottom: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
 }
 
 /* content */
 
 #main{
-margin: 0;
-padding: 0 0 0 170px;
-min-width: 830px;
-min-height: 100%;
-overflow: hidden;
-z-index: 1;
-position: relative;
+	margin: 0;
+	padding: 0 0 0 170px;
+	min-width: 830px;
+	min-height: 100%;
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
 }
 
 .slide, #comments{
-float: left;
-margin: 0;
-padding: 0;
-width: 100%;
-height: auto;
-clear: both;
-overflow: hidden;
-position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+	position: relative;
 }
 
 #comments{
-min-height: 400px;
+	min-height: 400px;
 }
 
 .progress{
-position: absolute;
-z-index: 3;
-width: 100%;
-height: 6px;
-top: 0;
-left: 0;
--moz-opacity: 0;
--webkit-opacity: 0;
-opacity: 0;
--webkit-transition: opacity 0.5s ease-in;
--moz-transition: opacity 0.5s ease-in;
--ms-transition: opacity 0.5s ease-in;
--o-transition: opacity 0.5s ease-in;
-transition: opacity 0.5s ease-in;
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 6px;
+	top: 0;
+	left: 0;
+	-moz-opacity: 0;
+	-webkit-opacity: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in;
+	-moz-transition: opacity 0.5s ease-in;
+	-ms-transition: opacity 0.5s ease-in;
+	-o-transition: opacity 0.5s ease-in;
+	transition: opacity 0.5s ease-in;
 }
 
 .progress.active{
--moz-opacity: 1;
--webkit-opacity: 1;
-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
 }
 
 .bar{
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-background-color: #ddd;
--webkit-transition: width 0.5s ease-in;
--moz-transition: width 0.5s ease-in;
--ms-transition: width 0.5s ease-in;
--o-transition: width 0.5s ease-in;
-transition: width 0.5s ease-in;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: #ddd;
+	-webkit-transition: width 0.5s ease-in;
+	-moz-transition: width 0.5s ease-in;
+	-ms-transition: width 0.5s ease-in;
+	-o-transition: width 0.5s ease-in;
+	transition: width 0.5s ease-in;
 }
 
 a.internal{
-position: absolute;
-top: 0;
-left: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .post{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-font: 300 1em/1.6em 'Roboto',helvetica, arial, sans-serif;
-z-index: 5;
--moz-opacity: 1;
--webkit-opacity: 1;
-opacity: 1;
--webkit-transition: opacity 0.5s ease-in;
--moz-transition: opacity 0.5s ease-in;
--ms-transition: opacity 0.5s ease-in;
--o-transition: opacity 0.5s ease-in;
-transition: opacity 0.5s ease-in;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font: 300 1em/1.6em 'Roboto',helvetica, arial, sans-serif;
+	z-index: 5;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in;
+	-moz-transition: opacity 0.5s ease-in;
+	-ms-transition: opacity 0.5s ease-in;
+	-o-transition: opacity 0.5s ease-in;
+	transition: opacity 0.5s ease-in;
 }
 
 .post a:hover{
-text-decoration: underline;
+	text-decoration: underline;
 }
 
 .post.hidden{
--moz-opacity: 0;
--webkit-opacity: 0;
-opacity: 0;
+	-moz-opacity: 0;
+	-webkit-opacity: 0;
+	opacity: 0;
 }
 
 .post .content{
-clear: both;
-position: absolute;
-width: 100%;
-height: 100%;
+	clear: both;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 
 .image{
-float: none;
-width: 100%;
-height: auto;
-visibility: hidden;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 1;
+	float: none;
+	width: 100%;
+	height: auto;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 .image.active{
-visibility: visible;
+	visibility: visible;
 }
 
 video.image{
-z-index: 2;
+	z-index: 2;
 }
 
 .post h1, .post h2, .post h3{
-display: block;
-font: 100 4em 'Roboto',helvetica, arial, sans-serif;
-margin: 0;
-padding: 20px 0 10px 0;
+	display: block;
+	font: 100 4em 'Roboto',helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 20px 0 10px 0;
 }
 
 .post h1{
--webkit-text-stroke: 0.5px;
+	-webkit-text-stroke: 0.5px;
 }
 
 .post h2{
-clear: both;
-font-size: 2em;
-padding: 10px 0 10px 0;
+	clear: both;
+	font-size: 2em;
+	padding: 10px 0 10px 0;
 }
 
 .post h3{
@@ -557,115 +557,115 @@ padding: 10px 0 10px 0;
 }
 
 .post h1 .sub{
-display: block;
-margin: 10px 0 0 0;	
-font: 300 18px/22px 'Roboto',helvetica, arial, sans-serif;
+	display: block;
+	margin: 10px 0 0 0;	
+	font: 300 18px/22px 'Roboto',helvetica, arial, sans-serif;
 }
 
 .post h2 .sub{
-float: left;
-width: 16px;
-height: 16px;
-background: transparent url(img/comment.png) no-repeat;
-margin: 10px 10px 0 0;
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: transparent url(img/comment.png) no-repeat;
+	margin: 10px 10px 0 0;
 }
 
 .post .pagenav{
-float: left;
-margin: 30px 0 0 0;
-padding: 0;
-overflow: hidden;
-clear: both;
+	float: left;
+	margin: 30px 0 0 0;
+	padding: 0;
+	overflow: hidden;
+	clear: both;
 }
 
 .post .pagenav li{
-float: left;
-list-style: none;
-margin: 0 12px 0 0;
-width: 25px;
-height: 26px;
-border: 1px solid #fff;
--webkit-border-radius: 25px;
--moz-border-radius: 25px;
-border-radius: 25px;
-text-align: center;
-line-height: 25px;
-cursor: pointer;
-font-size: 14px;
--webkit-transition: background-color 0.2s;
--moz-transition: background-color 0.2s;
--ms-transition: background-color 0.2s;
--o-transition: background-color 0.2s;
-transition: background-color 0.2s;
+	float: left;
+	list-style: none;
+	margin: 0 12px 0 0;
+	width: 25px;
+	height: 26px;
+	border: 1px solid #fff;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+	font-size: 14px;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-ms-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
 }
 
 .post .pagenav li:hover{
-background-color: #ed5a2d;
-border-color: #ed5a2d;
+	background-color: #ed5a2d;
+	border-color: #ed5a2d;
 }
 
 .post .pagenav li.active{
-background-color: #fff;
-color: #333;
-border-color: #fff;
-cursor: default;
+	background-color: #fff;
+	color: #333;
+	border-color: #fff;
+	cursor: default;
 }
 
 /* bottom nav */
 .prev, .next{
-width: 50%;
-float: left;
+	width: 50%;
+	float: left;
 }
 
 .prev a, .next a{
-display: block;
-min-height: 100px;
-font: 300 48px 'Roboto',helvetica, arial, sans-serif;
--webkit-transition: all 0.5s;
--moz-transition: all 0.5s;
--ms-transition: all 0.5s;
--o-transition: all 0.5s;
-transition: all 0.5s;
+	display: block;
+	min-height: 100px;
+	font: 300 48px 'Roboto',helvetica, arial, sans-serif;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .prev a{
-padding: 30px 0 30px 120px;
-background: transparent url(img/prev.png) no-repeat;
-background-position: 50px 42px;
+	padding: 30px 0 30px 120px;
+	background: transparent url(img/prev.png) no-repeat;
+	background-position: 50px 42px;
 }
 
 .next a{
-padding: 30px 120px 30px 0;
-background: transparent url(img/next.png) no-repeat;
-background-position: 100% 42px;
+	padding: 30px 120px 30px 0;
+	background: transparent url(img/next.png) no-repeat;
+	background-position: 100% 42px;
 }
 
 .next a{
-text-align: right;
+	text-align: right;
 }
 
 .final.slide a .text{
--webkit-text-stroke: 0.5px;
+	-webkit-text-stroke: 0.5px;
 }
 
 .final.slide a .sub{
-display: block;
-font-size: 20px;
+	display: block;
+	font-size: 20px;
 }
 
 .prev a:hover, .next a:hover{
-background-color: #222;
+	background-color: #222;
 }
 
 /* polygon */
 .polygon{
-white-space: nowrap;
+	white-space: nowrap;
 }
 
 .filler{
-display: inline-block;
-height: 10px;
-min-width: 1px;
+	display: inline-block;
+	height: 10px;
+	min-width: 1px;
 }
 
 .voice {}
