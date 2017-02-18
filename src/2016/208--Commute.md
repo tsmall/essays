@@ -6,7 +6,7 @@ one building our iOS and Android apps,
 and the other making our software work with all the other software schools already use.
 </span>
 
-<span class="voice--tom">
+<span class="voice--tom voice--continued">
 It has been a fun, challenging new role,
 and I'm learning every day.
 </span>

@@ -9,7 +9,7 @@ But even despite those obligations we've managed find time to enjoy much of what
 
 We've seen some incredible shows this year:
 *Hamilton*,
-*On The Town* (<span class="voice--teresa">starring my cousin, Elizabeth Stanley</span>),
+*On The Town* (starring Teresa's cousin, Elizabeth Stanley),
 *Les Miserables*,
 *The Curious Incident of the Dog in the Nighttime*,
 *A Gentleman's Guide to Love and Murder*,
@@ -17,7 +17,7 @@ We've seen some incredible shows this year:
 *Allegience*,
 *Danny Elfman's Music from the Films of Tim Burton* and *Ramona* at Lincoln Center,
 and lots of puppet shows in the Lower East Side
-(<span class="voice--tom">some of which Teresa performed in</span>).
+(some of which Teresa performed in).
 
 We saw the New York Philharmonic play in Central Park,
 featuring a solo by Joshua Bell.

@@ -11,7 +11,7 @@ and might-as-well-be-family Lea.
 The next day we had lunch with Grandma at her apartment.
 </span>
 
-<span class="voice--teresa">
+<span class="voice--teresa voice--continued">
 I am sad knowing now that this was the last time I would see my Grandma,
 but happy that we had such a good time together,
 sharing beautiful weather and good conversation.

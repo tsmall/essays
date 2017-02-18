@@ -674,13 +674,41 @@ video.image{
 
 .voice {}
 .voice--teresa {
-	font-family: "Abel";
-	font-style: italic;
-}
-.voice--tom {
 	font-family: "Ropa Sans";
 	font-style: italic;
 	font-weight: 400;
+
+	/* Set hanging indent. */
+	display: block;
+	padding-left: 1.3em;
+	text-indent: -1.3em;
+}
+.voice--teresa:before {
+	content: "TL: ";
+	font-style: normal;
+}
+.voice--tom {
+	font-family: "Roboto Slab";
+	font-weight: 300;
+	font-size: 0.9em;
+
+	/* Set hanging indent. */
+	display: block;
+	padding-left: 1.6em;
+	text-indent: -1.6em;
+}
+.voice--tom:before {
+	content: "TS: ";
+}
+.voice--continued:before {
+	content: "      ";
+}
+.voice--unprefixed {
+	padding-left: 0;
+	text-indent: 0;
+}
+.voice--unprefixed:before {
+	content: "";
 }
 
 .dark {

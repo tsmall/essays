@@ -29,14 +29,14 @@ whom I see on a regular basis, because it's so wonderful to see them as often as
 But they actually live here in Brooklyn now, too, so aren't visitors.)
 </span>
 
-<span class="voice--teresa">
+<span class="voice--teresa voice--continued">
 I'm also so lucky to have relatives who repeatedly come to New York,
 my mom's cousin Sarah and her husband David,
 and her son Adam and his wife Liz.
 It helps that they used to live here and always have so many reasons to come back.
 </span>
 
-<span class="voice--teresa">
+<span class="voice--teresa voice--continued">
 Last, but certainly not least, my sister Carole and her husband Tim are coming to Brooklyn for Christmas.
 It will be their first time visiting since I've moved here, and I couldn't be more excited.
 </span>

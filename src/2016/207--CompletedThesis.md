@@ -10,7 +10,7 @@ Turns out writing a thesis is hard.
 Who knew?
 </span>
 
-<span class="voice--teresa">
+<span class="voice--teresa voice--continued">
 At the same time, I worked an internship at *Artforum* in Manhattan.
 I also showed my work in three different galleries around NYC,
 an essay I wrote was included in the Queens biennial catalog,
