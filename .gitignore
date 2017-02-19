@@ -1,7 +1,4 @@
 _site
 
-src/2016/*.md
-
-src/2016/*.jpg
-src/2016/*.mov
-src/2016/*.m4v
+src/2015/*.md
+src/2016
