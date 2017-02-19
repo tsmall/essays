@@ -732,7 +732,7 @@ do
 	html=$(template "$html" basepath "$basepath")
 	html=$(template "$html" assetpath_prefix $(assetpath_prefix "$basepath"))
 	html=$(template "$html" disqus_identifier "${nav_url[i]}")
-	html=$(template "$html" resourcepath "$resourcepath_prefix")
+	html=$(template "$html" resourcepath "$resourcepath_prefix${nav_url[i]}/")
 	
 	# set default values for {{XXX:default}} strings
 	html=$(echo "$html" | sed "s/{{[^{}]*:\([^}]*\)}}/\1/g")
