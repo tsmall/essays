@@ -1,0 +1,876 @@
+#+TITLE: 2016 Valentine's Day Newsletter
+#+AUTHOR: Tom Small III
+
+* Introduction
+
+The document you're reading now is the Smallgren newsletter for 2016. We
+included a link to this site in the Valentine's Day cards we sent in 2017. You
+can see it running on [[http://www.smallgren.com/stories/2016][Smallgren.com]].
+
+This newsletter is written as a literate program. It uses Emacs's Org Mode for
+formatting and tangling. See [[*Building]] below for the steps required to tangle
+the source files.
+
+* Building
+
+Building the site from this source is a multi-step process. Right now you have
+to perform many of the steps manually. Maybe some day I'll make it easier. But
+for now, here's what you need to do.
+
+1. Open this file in Emacs.
+2. Tangle the source files by running ~org-babel-tangle~.
+3. In a terminal, run the script =build.sh=.
+
+When that finishes, the =src/_site= directory will contain the built website. You
+can view it in your browser by running a local web server.
+
+1. Navigate to =src/_site= in a terminal.
+2. Run the command =python -m SimpleHTTPServer=.
+3. Open a web browser and go to http://localhost:8000.
+
+* Newsletter text
+:PROPERTIES:
+:header-args: :padline no
+:END:
+
+
+** Introduction
+
+Like we did for last year's story, we start with a title slide and a bit of
+text to introduce the site. We aren't introducing ourselves again this year; we
+did that last year, and it's still there for people to read.
+
+#+BEGIN_SRC markdown :tangle 2016/001--HeartBalloon.md
+  ---
+  top: 45
+  left: 3
+  width: 50
+  ---
+  # 2016:<br/>A Year in Photos
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/002--Hearts.md
+  ---
+  top: 36
+  left: 59
+  width: 34
+  ---
+  ## Happy Valentine's Day.
+
+  Have we got a lot to share with you!
+  2016 was an incredibly eventful year,
+  personally,
+  professionally,
+  academically,
+  pet-ly.
+  Fami-ly?
+  Traila has a new frenemy.
+  We just got used to saying "fiancé(e)"
+  before we needed to start saying "husband" and&nbsp;"wife."
+
+  We're still happy here in New York City,
+  seeing as much theater as we can
+  and going to trivia nearly every week.
+  (We're *so close* to&nbsp;winning.)
+#+END_SRC
+
+** The engagement
+
+The first story this year is our engagement and marriage. We introduce both
+here, though we will leave the wedding until later.
+
+#+BEGIN_SRC markdown :tangle 2016/100--PoppingTheQuestion.md
+  ---
+  top: 50
+  left: 8
+  width: 30
+  textcolor: #333333
+  ---
+  Let's start with the big story here.
+  We got engaged!
+  And married!
+  (But that comes later.)
+
+  <span class="voice--tom">
+  Teresa asked me to marry her while we were celebrating nine months together.
+  </span>
+
+  <span class="voice--teresa">
+  All throughout our courtship we wrote letters to each other.
+  So I thought this was the perfect way of asking.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/101--DecoderRing.md
+  ---
+  top: 40
+  left: 80
+  width: 15
+  ---
+  <span class="voice--tom">
+  I said yes.
+  :)
+  </span>
+
+  <span class="voice--tom voice--continued">
+  (And I got this sweet secret decoder ring!)
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/102--TopofTentRocks.md
+  ---
+  top: 5
+  left: 67
+  width: 30
+  textcolor: #333333
+  ---
+  We started planning what we wanted our wedding to be like.
+  One of our top locations was Santa Fe, New Mexico.
+
+  <span class="voice--teresa">
+  I grew up going to Santa Fe every year for Spring Break.
+  It has special importance for my family.
+  But first I had to show it to Tom.
+  </span>
+
+  <span class="voice--tom">
+  So we planned a trip out there to scout it out.
+  And, like with Colorado, I loved it immediately.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/103--TeresaUnderTheTree.md
+  ---
+  top: 24
+  left: 13
+  width: 60
+  ---
+  (Teresa was happy to be back.)
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/104--WeddingCards.md
+  ---
+  top: 10
+  left: 65
+  width: 30
+  textcolor: #333333
+  ---
+  With the date and location picked, we set about making plans and invitations.
+  But before we get ahead of ourselves...
+#+END_SRC
+
+** Meanwhile, back at the farm...
+
+The wedding and road trip are the main attractions. But there is a lot of other
+things to talk about too. Let's take a step back and talk about our new dog and
+our achievements.
+
+#+BEGIN_SRC markdown :tangle 2016/200--Traila.md
+  ---
+  top: 80
+  left: 60
+  width: 60
+  textcolor: #333333
+  ---
+  ... a lot happened at home.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/201--RubyTaxi.md
+  ---
+  top: 70
+  left: 65
+  width: 30
+  ---
+  ## We adopted a dog!
+
+  Her name is Ruby.
+  She's a [programmer's best friend][ruby].
+  Here we are, taking her home from the adoption event.
+
+  Although she is scared of *everything*,
+  she took to us and her new home quickly.
+
+  [ruby]: https://www.ruby-lang.org/en/
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/204--TrailaAndRuby.md
+  ---
+  top: 70
+  left: 6
+  width: 50
+  ---
+  Ever since meeting her,
+  Ruby has wanted nothing more than to become Traila's best friend.
+  Traila, unfortunately, doesn't feel the same way.
+  In fact, quite the opposite.
+
+  <span class="voice--tom">
+  But I still hold out hope that, one day, they'll be buddies.
+  Any day now.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/205--ThesisShow.md
+  ---
+  top: 60
+  left: 53
+  width: 27
+  ---
+  <span class="voice--teresa">
+  This year I also finished both of my master's degrees.
+  My MFA culminated with a thesis show in April,
+  where I showed prints, paintings, and videos
+  in a gallery on campus.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/207--CompletedThesis.md
+  ---
+  top: 61
+  left: 20
+  width: 55
+  ---
+  <span class="voice--teresa">
+  I also finished my degree in History of Art and Design in December.
+  This was the most I ever worked on a single essay in my life.
+  Turns out writing a thesis is hard.
+  Who knew?
+  </span>
+
+  <span class="voice--teresa voice--continued">
+  At the same time, I worked an internship at *Artforum* in Manhattan.
+  I also showed my work in three different galleries around NYC,
+  an essay I wrote was included in the Queens biennial catalog,
+  and helped curate a show on campus.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/208--Commute.md
+  <span class="voice--tom">
+  I've stayed very busy at Schoology,
+  where I was promoted to Engineering Manager.
+  I'm now in charge of two teams of engineers,
+  one building our iOS and Android apps,
+  and the other making our software work with all the other software schools already use.
+  </span>
+
+  <span class="voice--tom voice--continued">
+  It has been a fun, challenging new role,
+  and I'm learning every day.
+  </span>
+#+END_SRC
+
+** Around NYC
+
+We continued to enjoy our time in NYC. There are a few stand-out things to talk
+about there.
+
+#+BEGIN_SRC markdown :tangle 2016/210--Manhattan.md
+  ---
+  top: 84
+  left: 22
+  width: 60
+  ---
+  But it wasn't all work.
+  We continued to explore together,
+  both in and out of the city.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/211--BrooklynBridge.md
+  ---
+  top: 80
+  left: 10
+  width: 60
+  ---
+  <span class="voice--tom">
+  I finally walked across the Brooklyn Bridge!
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/212--GovernorsIsland.md
+  ---
+  top: 4
+  left: 10
+  width: 60
+  textcolor: #333333
+  ---
+  <span class="voice--teresa">
+  And Tom showed me Governor's Island.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/213--ConeyIsland.md
+  ---
+  top: 10
+  left: 20
+  width: 60
+  ---
+  We saw the Coney Island Cyclones,
+  including fireworks after the show.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/214--Mets.md
+  ---
+  top: 28
+  left: 66
+  width: 60
+  ---
+  And saw the Mets play for Teresa's birthday.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/215--CentralPark.md
+  ---
+  top: 75
+  left: 10
+  width: 60
+  ---
+  And there are always old classics like Central Park.
+#+END_SRC
+
+** Weekend trips
+
+We took quite a few weekend trips this year.
+
+#+BEGIN_SRC markdown :tangle 2016/220--RoomWhereItHappened.md
+  ---
+  top: 72
+  left: 2
+  width: 40
+  ---
+  We also took quite a few weekend trips out of the city.
+  We visited Philadelphia, the first time for both of us.
+  We didn't expect to nerd out on the history of the city as much as we did.
+  But, still under the influence of *Hamilton*,
+  we couldn't resist seeing where it all happened.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/221--AlesOfTheRevolution.md
+  ---
+  top: 10
+  left: 66
+  width: 22
+  ---
+  And tasting the founding fathers' original beer recipes.
+  Turns out they knew what they were doing!
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/222--CheeseSteaks.md
+  ---
+  top: 0
+  left: 2
+  width: 30
+  ---
+  Of course, while we were there we had to have the original cheesesteak.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/230--Sparklers.md
+  ---
+  top: 85
+  left: 3
+  width: 40
+  ---
+  <span class="voice--tom">
+  We went up to Rhinebeck, New York for the Fourth of July,
+  where we met some of my old college roommates
+  to celebrate and catch up.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/231-Maine.md
+  ---
+  top: 70
+  left: 10
+  width: 40
+  ---
+  <span class="voice--teresa">
+  I took Tom up to Camden, Maine,
+  where we visited Aunt Sarah and David,
+  hiked,
+  and took a ride on the Schooner Olad.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/232--BigWolfCody.md
+  ---
+  top: 85
+  left: 20
+  width: 58
+  ---
+  Ruby visited Big Wolf and met her uncle Cody for the first time.
+  (Cody is the cute black lab mix.)
+  He taught her how to play with sticks.
+  She taught him how to swim.
+#+END_SRC
+
+** The wedding
+
+And now, back to the wedding.
+
+#+BEGIN_SRC markdown :tangle 2016/300--WeddingCake.md
+  ---
+  top: 27
+  left: 5
+  width: 30
+  textcolor: #333333
+  ---
+  Now, where were we?
+  Oh right!
+  And in the middle of all of this,
+
+  ## We got married!
+
+  Hitched.
+  Man and wife.
+  And we had an amazing wedding.
+
+  We rented a property north of Santa Fe for three nights
+  and hosted all of our immediate family.
+  It was relaxed.
+  In the days around the wedding people came and went as they pleased.
+  We explored Santa Fe.
+  We hiked.
+  We went to the [Albuquerque International Balloon Fiesta][fiesta].
+  And we just generally had a good time together.
+
+  It was nice having our families together in one place,
+  the first time we were actually able to do that.
+
+  [fiesta]: http://www.balloonfiesta.com/
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/301--House.md
+  ---
+  top: 70
+  left: 60
+  width: 35
+  ---
+  The property was beautiful, isolated, neighboring the national forest.
+  This is the main building, which was built in the traditional New Mexican style.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/302--RubyInBathroom.md
+  ---
+  top: 92
+  left: 15
+  width: 60
+  ---
+  Ruby liked it too.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/303--Bandelier.md
+  ---
+  top: 8
+  left: 5
+  width: 40
+  ---
+  The day before the wedding,
+  a group of us hiked through Bandelier National Monument
+  outside of Los Alamos.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/304--HotAirBalloonsCrowd.md
+  ---
+  top: 1
+  left: 11
+  width: 30
+  ---
+  On the day of the wedding,
+  many of us got up before dawn to go to the Balloon Fiesta.
+  There we met Teresa's friend Mollie.
+  It was a cloudy day and we almost got rained out.
+  But it was our wedding day!
+  And the story can't go like that.
+
+  After a two hour delay the mass ascension finally started.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/305--HotAirBalloons.md
+  ---
+  top: 25
+  left: 67
+  width: 60
+  textcolor: #333333
+  ---
+  And lo!
+  The sky was full of balloons.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/310--WritingVows.md
+  ---
+  top: 80
+  left: 2
+  width: 15
+  ---
+  After the balloons we came back to prepare for the wedding.
+  We took a quick nap,
+  got dressed,
+  transcribed our vows,
+  and decorated the house.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/311--BeautifulBride.md
+  ---
+  top: 63
+  left: 65
+  width: 33
+  ---
+  And then the ceremony began, at sundown.
+
+  <span class="voice--teresa">
+  I was excited!
+  The only thing I was nervous about was tripping in my heels
+  on the flagstone steps up to the house.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/313--CeremonyGroup.md
+  ---
+  top: 75
+  left: 11
+  width: 55
+  ---
+  Carole Owens, a longtime family friend, was our officiant.
+  Carole (Teresa's sister) was the maid of honor.
+  Kayleigh (Tom's sister) was the best man.
+  And Ruby was the flower girl.
+  Alex (Kayleigh's husband) played our processional and recessional.
+  And Carole and Teresa played a duet on violin during the ceremony.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/317--Dinner.md
+  ---
+  top: 5
+  left: 3
+  width: 32
+  ---
+  The wedding ceremony and dinner were exactly what we'd hoped they'd be:
+  cozy, intimate, and easygoing.
+  Tim and Carole chose a signature cocktail for each of us:
+  the Spicy Tom
+  and the Teresa No. 5.
+  The food was delicious:
+  New Mexican standards,
+  enchiladas and chile rellenos.
+  Everything felt perfect.
+#+END_SRC
+
+** The road trip
+
+Our road trip was amazing. There's more there than we can share in one story.
+(At least, without making it much too long.) But we can whittle it down to the
+highlights.
+
+#+BEGIN_SRC markdown :tangle 2016/400--RoadTrip-Buffalo.md
+  ---
+  top: 70
+  left: 74
+  width: 23
+  ---
+  In lieu of a large reception,
+  we decided to take our celebration on the road.
+  We drove from Santa Fe back to New York City,
+  stopping to visit with friends and family along the way.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/401--RoadTrip-Road.md
+  ---
+  top: 75
+  left: 5
+  width: 50
+  ---
+  <span class="voice--tom">
+  The scenery between New Mexico and Colorado was stunning.
+  Teresa offered to drive the first couple of days,
+  since she had made the drive many times before.
+  And I'm very glad she did.
+  Otherwise I expect our car would have ended up in a ditch
+  because I couldn't stop looking at the vistas all around.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/403--PagosaSunset.md
+  ---
+  top: 0
+  left: 2
+  width: 60
+  ---
+  <span class="voice--teresa">
+  Our first night on the trip,
+  I surprised Tom with a stay at Pagosa Hot Springs
+  in Southwest Colorado.
+  It was his first time to that part of the state.
+  But it was an old favorite from college
+  and I was eager to share it with him.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/404--Geyser.md
+  ---
+  top: 13
+  left: 55
+  width: 60
+  textcolor: #333333
+  ---
+  This is a geyser.
+  We'll figure out what to say about it later.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/405--Driving.md
+  After a night in Pagosa Springs, we continued north to Denver.
+  Driving through the Rocky Mountains,
+  we saw all four seasons in the span of five hours.
+  We went from full foliage,
+  to fall foliage,
+  to no foliage,
+  and back to later summer conditions in Denver.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/407--Grandma.md
+  ---
+  top: -1
+  left: 1
+  width: 27
+  ---
+  <span class="voice--teresa">
+  In Denver we had dinner with my Grandma Alice,
+  uncle Peter,
+  aunt Lucille,
+  and might-as-well-be-family Lea.
+  The next day we had lunch with Grandma at her apartment.
+  </span>
+
+  <span class="voice--teresa voice--continued">
+  I am sad knowing now that this was the last time I would see my Grandma,
+  but happy that we had such a good time together,
+  sharing beautiful weather and good conversation.
+  </span>
+
+  <span class="voice--tom">
+  I'm also very grateful that we had this time together,
+  and for having a chance to get to know Alice.
+  She wore such a warm, welcoming smile every time I met her,
+  and made me feel immediately part of the family.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/408--RoadTrip-FoCoParty.md
+  ---
+  top: 22
+  left: 13
+  width: 40
+  ---
+  From there we went north to Fort Collins.
+  We hosted a party at Fort Collins Brewery,
+  where we celebrated with people from all different periods of Teresa's life.
+  Some she's known since very early childhood,
+  some from high school,
+  others from during and after college.
+  It was fun bringing together a wide range of people.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/409--Norm.md
+  ---
+  top: 70
+  left: 4
+  width: 55
+  ---
+  The following morning,
+  before making the long drive to Iowa,
+  we met up with Uncle Norm for breakfast at the Silver Grill Cafe.
+
+  <span class="voice--teresa">
+  Norm isn't actually my uncle,
+  but he becomes an uncle to anyone who takes the time to get to know him.
+  Since co-hosting Runaway Fiddle with Norm, many years ago,
+  seeing him has been a must every time we come home to Fort Collins.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/410--FikaPot.md
+  ---
+  top: 1
+  left: 73
+  width: 26
+  ---
+  This is the world's largest Swedish coffee pot.
+  You can see it firsthand if you go to Stanton, Iowa,
+  where we had our next reception.
+  Teresa's father and step-mother hosted us
+  and threw us a great party.
+  Family from all over Iowa came to celebrate with us.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/411--Chicago.md
+  ---
+  top: 70
+  left: 58
+  width: 33
+  ---
+  <span class="voice--tom">
+  In Chicago
+  — stop number five on our trip —
+  we met up with a group of my friends from college.
+  This was, sadly, my first time visiting Chicago.
+  We had a great time there, with great company, and can't wait to go back.
+  </span>
+
+  <span class="voice--teresa">
+  I was born in Chicago but have no memories of it;
+  we moved when I was a month old.
+  This was my first time visiting in more than half a lifetime.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/412--CedarPoint.md
+  ---
+  top: 24
+  left: 2
+  width: 34
+  ---
+  To break up the drive between Chicago and Upstate New York,
+  we make a quick stop in Ohio,
+  home of the most rollercoasters in one place:
+  Cedar Point.
+  This one was easily our favorite.
+  It felt like you were flying.
+  We rode it twice,
+  getting back on just before the park closed.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/413--Utica.md
+  <span class="voice--tom">
+  Some of my friends from my time in Utica joined us
+  for a delicious dinner of Chicken Riggies and Utica Greens.
+  It was great to see my old friends and catch up.
+  And the Riggies were just as delicious as I remembered.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/414--LP.md
+  ---
+  top: 0
+  left: 2
+  width: 49
+  ---
+  <span class="voice--tom">
+  And here we are, at our penultimate reception party in Lake Placid.
+  We spent a great afternoon celebrating with my family
+  and many of my close high school friends.
+  And, though we sadly didn't play,
+  Twice on Sundays (my high school band) had its first reunion in many years.
+  </span>
+
+  We had one final party in Brooklyn when we got home,
+  though sadly we don't have any photos of it.
+  It was a nice way to end the celebration,
+  bringing people from both of our lives together in one place again.
+#+END_SRC
+
+** The holidays
+
+We had wonderful Thanksgiving and Christmas holidays, one in Seattle and the
+other in Lake Placid.
+
+#+BEGIN_SRC markdown :tangle 2016/500--Thanksgiving.md
+  ---
+  top: 70
+  left: 48
+  width: 40
+  ---
+  <span class="voice--teresa">
+  For Thanksgiving we went to the Pacific Northwest.
+  We celebrated in Oregon wine country
+  with my sister Carole, her husband Tim, and their dog Hudson.
+  We were excited — nay, honored — to spend the first weekend in their new house with them.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/501--Eyrie.md
+  ---
+  top: 80
+  left: 5
+  width: 40
+  ---
+  We tasted wine at one of Carole and Tim's favorite wineries, Brooks,
+  and at the first vineyard in Oregon, Eyrie Vineyards.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/502--SpaceNeedle.md
+  ---
+  top: 5
+  left: 37
+  width: 60
+  textcolor: #333333
+  ---
+  To wrap up our trip, we traveled north to Seattle.
+  We visited MoPOP,
+  which was still the Experience Music Project the last time Teresa was there.
+  Carole and Tim brought us to the famed Pike Place Market.
+  And we had phenomenal coffee,
+  the likes of which we unfortunately can't get back home.
+
+  <span class="voice--teresa">
+  And here you thought New York had everything!
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2016/503--ChristmasSnow.md
+  ---
+  top: 70
+  left: 10
+  width: 47
+  ---
+  ## Snow, snow, snow, snow, snow!
+
+  This was Teresa's first Christmas in Lake Placid,
+  and the Olympic village didn't let us down.
+  We had a beautiful white Christmas.
+#+END_SRC
+
+** Teaser
+
+To wrap up, we'll give a quick teaser of our honeymoon. That's a whole story on
+its own, so we won't include it here. But we will tell people to expect more on
+it soon.
+
+#+BEGIN_SRC markdown :tangle 2016/800--HoneymoonTeaser.md
+  ---
+  top: 10
+  left: 1
+  width: 17
+  ---
+  Right after Christmas we left for our honeymoon.
+  We wanted to include that here too,
+  but as you can see this was an exciting year for us,
+  and that's too much for one story.
+  But we'll be back soon with photos and tales from our trip through Scandinavia.
+  (Reindeer are involved!)
+
+  So check back soon.
+  We hope you had a wonderful year too.
+  Love and good wishes to you and yours.
+  Until next time...
+#+END_SRC
+
+** Copyright
+
+And, like last time, we'll include copyright information at the end.
+
+#+BEGIN_SRC markdown :tangle 2016/999--DoNotLitter.md
+  ---
+  top: 12
+  left: 5
+  width: 30 
+  ---
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+  </a>
+
+  This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+  If you are interested in using any of these photos,
+  please [get in touch](mailto:thesmallgrens@gmail.com)
+  for attribution information.
+
+  It was built using [Expose](https://github.com/Jack000/Expose).
+#+END_SRC
