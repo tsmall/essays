@@ -51,7 +51,7 @@ did that last year, and it's still there for people to read.
 
 #+BEGIN_SRC markdown :tangle 2016/002--Hearts.md
   ---
-  top: 36
+  top: 26
   left: 59
   width: 34
   ---
@@ -81,7 +81,7 @@ here, though we will leave the wedding until later.
 
 #+BEGIN_SRC markdown :tangle 2016/100--PoppingTheQuestion.md
   ---
-  top: 50
+  top: 40
   left: 8
   width: 30
   textcolor: #333333
@@ -118,7 +118,7 @@ here, though we will leave the wedding until later.
 
 #+BEGIN_SRC markdown :tangle 2016/102--TopofTentRocks.md
   ---
-  top: 5
+  top: 0
   left: 67
   width: 30
   textcolor: #333333
@@ -150,9 +150,9 @@ here, though we will leave the wedding until later.
 
 #+BEGIN_SRC markdown :tangle 2016/104--WeddingCards.md
   ---
-  top: 10
-  left: 65
-  width: 30
+  top: 60
+  left: 72
+  width: 22
   textcolor: #333333
   ---
   With the date and location picked, we set about making plans and invitations.
@@ -167,7 +167,7 @@ our achievements.
 
 #+BEGIN_SRC markdown :tangle 2016/200--Traila.md
   ---
-  top: 80
+  top: 65
   left: 60
   width: 60
   textcolor: #333333
@@ -177,9 +177,9 @@ our achievements.
 
 #+BEGIN_SRC markdown :tangle 2016/201--RubyTaxi.md
   ---
-  top: 70
+  top: 67
   left: 65
-  width: 30
+  width: 32
   ---
   ## We adopted a dog!
 
@@ -195,8 +195,8 @@ our achievements.
 
 #+BEGIN_SRC markdown :tangle 2016/204--TrailaAndRuby.md
   ---
-  top: 70
-  left: 6
+  top: 65
+  left: 4
   width: 50
   ---
   Ever since meeting her,
@@ -249,6 +249,11 @@ our achievements.
 #+END_SRC
 
 #+BEGIN_SRC markdown :tangle 2016/208--Commute.md
+  ---
+  top: 5
+  left: 20
+  width: 60
+  ---
   <span class="voice--tom">
   I've stayed very busy at [Schoology][],
   where I was promoted to Engineering Manager.
@@ -318,7 +323,7 @@ about there.
   ---
   top: 28
   left: 66
-  width: 60
+  width: 30
   ---
   ... saw the Mets play for Teresa's birthday, ...
 #+END_SRC
@@ -338,8 +343,8 @@ We took quite a few weekend trips this year.
 
 #+BEGIN_SRC markdown :tangle 2016/220--RoomWhereItHappened.md
   ---
-  top: 72
-  left: 2
+  top: 9
+  left: 52
   width: 40
   ---
   We also took quite a few weekend trips out of the city.
@@ -402,7 +407,7 @@ We took quite a few weekend trips this year.
 
 #+BEGIN_SRC markdown :tangle 2016/232--BigWolfCody.md
   ---
-  top: 85
+  top: 82
   left: 20
   width: 58
   ---
@@ -419,8 +424,8 @@ And now, back to the wedding.
 #+BEGIN_SRC markdown :tangle 2016/300--WeddingCake.md
   ---
   top: 27
-  left: 5
-  width: 30
+  left: 2
+  width: 33
   textcolor: #333333
   ---
   Now, where were we?
@@ -483,7 +488,7 @@ And now, back to the wedding.
 #+BEGIN_SRC markdown :tangle 2016/304--HotAirBalloonsCrowd.md
   ---
   top: 1
-  left: 11
+  left: 16
   width: 30
   ---
   On the day of the wedding,
@@ -500,7 +505,7 @@ And now, back to the wedding.
   ---
   top: 25
   left: 67
-  width: 60
+  width: 30
   textcolor: #333333
   ---
   And lo!
@@ -509,7 +514,7 @@ And now, back to the wedding.
 
 #+BEGIN_SRC markdown :tangle 2016/310--WritingVows.md
   ---
-  top: 80
+  top: 75
   left: 2
   width: 15
   ---
@@ -539,7 +544,7 @@ And now, back to the wedding.
   ---
   top: 75
   left: 11
-  width: 55
+  width: 60
   ---
   Carole Owens, a longtime family friend, was our officiant.
   Carole (Teresa's sister) was the maid of honor.
@@ -586,7 +591,7 @@ highlights.
 
 #+BEGIN_SRC markdown :tangle 2016/401--RoadTrip-Road.md
   ---
-  top: 75
+  top: 70
   left: 5
   width: 50
   ---
@@ -618,9 +623,9 @@ highlights.
 
 #+BEGIN_SRC markdown :tangle 2016/404--Geyser.md
   ---
-  top: 13
+  top: 5
   left: 55
-  width: 60
+  width: 40
   textcolor: #333333
   ---
   Natural hot spring geysers like this heated all of the pools.
@@ -688,7 +693,7 @@ highlights.
 
 #+BEGIN_SRC markdown :tangle 2016/409--Norm.md
   ---
-  top: 70
+  top: 66
   left: 4
   width: 55
   ---
@@ -720,9 +725,9 @@ highlights.
 
 #+BEGIN_SRC markdown :tangle 2016/411--Chicago.md
   ---
-  top: 70
-  left: 58
-  width: 33
+  top: 66
+  left: 2
+  width: 43
   ---
   <span class="voice--tom">
   In Chicago
@@ -817,7 +822,7 @@ other in Lake Placid.
 
 #+BEGIN_SRC markdown :tangle 2016/502--SpaceNeedle.md
   ---
-  top: 5
+  top: 1
   left: 37
   width: 60
   textcolor: #333333
@@ -857,17 +862,16 @@ it soon.
 
 #+BEGIN_SRC markdown :tangle 2016/800--HoneymoonTeaser.md
   ---
-  top: 10
+  top: 1
   left: 1
   width: 17
   ---
-  Right after Christmas we left for our honeymoon.
+  We left for our honeymoon after Christmas.
   We wanted to include that here too,
-  but, as you can see,that would be way too much for one story.
-  But we'll be back soon with photos and tales from our trip through Scandinavia.
+  but this story is long enough already.
+  So we'll be back soon with photos from our trip through Scandinavia.
   (Reindeer are involved!)
 
-  So check back soon.
   We hope you had a wonderful year too.
   Love and good wishes to you and yours.
   Until next time...
