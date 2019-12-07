@@ -1,0 +1,24 @@
+#+TITLE: Smallgren Stories
+#+AUTHOR: Tom Small III
+#+STARTUP: showall
+
+This repository contains the source of the Smallgren photo stories. These
+stories are hosted on our website, at http://www.smallgren.com/stories. It's
+built using the wonderful [[https://github.com/Jack000/Expose][Expose]] static site generator.
+
+* Organization
+
+The source for this site is written as a literate program. I've chosen to use
+Emacs's [[http://orgmode.org/][Org Mode]] as my literate programming tool. Each story is its own Org
+file. I think of each of them as one chapter in a book. Here's the table of
+contents:
+
+- [[file:src/2015.org][2015]]
+- [[file:src/2016.org][2016]]
+- [[file:src/2018.org][2018]]
+
+* Commit message guidelines
+
+I started by following a Conventional Commits-like format. But I've decided
+that doesn't really add anything. So now I just try to make sure the messages
+are clear and helpful, with a short subject line and an optional longer body.
