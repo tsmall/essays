@@ -672,6 +672,36 @@ video.image{
 	min-width: 1px;
 }
 
+.boxed p, .boxed ul {
+    /**
+     * To make the text easier to read on all types of images,
+     * add a transparent background color to every paragraph.
+     */
+    background: rgba(35, 35, 35, 0.7);
+
+    /**
+     * Now that the background is visible,
+     * set a consistent amount of padding around the text.
+     */
+    padding: 1rem;
+    margin: 0;
+}
+
+/**
+ * Remove the extra space between paragraphs.
+ */
+.boxed p + p {
+    padding-top: 0;
+}
+
+.boxed ul {
+    /**
+     * Don't show bullets or anything else for the list items.
+     * Let them stand on their own.
+     */
+    list-style-type: none;
+}
+
 .voice {}
 .voice--teresa {
 	font-family: "Ropa Sans";
