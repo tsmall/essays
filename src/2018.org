@@ -1,0 +1,608 @@
+#+TITLE: 2018 Christmas Newsletter
+#+AUTHOR: Tom Small III
+
+* Introduction
+
+The document you're reading now is the Smallgren newsletter for 2018.
+We included a link to this site in the Christmas cards we sent in 2018.
+You can see it running on [[http://www.smallgren.com/stories/2018][smallgren.com]].
+
+This newsletter is written as a literate program.
+It uses Emacs's Org Mode for formatting and tangling.
+
+* Newsletter text
+:PROPERTIES:
+:header-args: :padline no
+:END:
+
+** A Quick Note On Styling
+
+There's a new setting in the YAML top-matter this year: =extraclasses=.
+This is a customization I made to Expose.
+It lets me add custom CSS classes to the "post" divs.
+So far I'm using it for only one reason:
+to add the =boxed= class.
+
+That is also a new class.
+It adds a semi-transparent dark background
+behind all of the text boxes.
+It was very hard to read some of the text this year
+no matter where I put the text.
+This solves the problem.
+
+** Title and Index
+
+We start the newsletter with a title slide, as is tradition.
+
+#+BEGIN_SRC markdown :tangle 2018/001_Title.md
+  ---
+  top: 45
+  left: 3
+  width: 50
+  ---
+  # 2018:<br />A Year in Photos
+#+END_SRC
+
+We're trying something new with this year's site: an index.
+This includes a few paragraphs to introduce the site.
+It also includes links to the main sections.
+That way people can more easily jump right to the parts they care about.
+Since there's a decent amount of content
+we thought that might encourage people to actually read more of it.
+
+#+BEGIN_SRC markdown :tangle 2018/002_Index.md
+  ---
+  top: 10
+  left: 5
+  width: 50
+  extraclasses: boxed
+  ---
+  Dear family and friends, 
+
+  It's been a busy two years since we last wrote; we have a lot to share with you! We've been on adventures together, saw old friends, made new friends, learned new things, and taken time to remember those we have lost. Although we're a little behind the holiday season, we hope you had a wonderful time surrounded by loved ones, and are having a wonderful start to the new year.
+
+  Instead of just presenting photos of 2018 chronologically, you can use this index to jump to the stories you are interested in most. Click on one of the links below to be magically whisked right to that part of our story through the magic of the interwebs!
+
+  ,* [Winter in Vermont](#5)
+  ,* [Weird Al](#6)
+  ,* [Spring in Dominican Republic](#7)
+  ,* [The Great Saunter](#14)
+  ,* [Quebec City Class Reunion](#17)
+  ,* [Summer in Iowa](#20)
+  ,* [Portugal](#22)
+  ,* [Fall in  New York State](#38)
+  ,* [Christmas](#43)
+#+END_SRC
+
+** Introductions
+
+It has been a couple years since our last letter.
+So we thought it would be a good idea to reintroduce ourselves.
+
+#+BEGIN_SRC markdown :tangle 2018/003_Intro_Teresa.md
+  ---
+  top: 43
+  left: 3
+  width: 40
+  extraclasses: boxed
+  ---
+  <span class="voice--teresa voice--unprefixed">
+  Hi, everyone! I haven't been on social media (other than Ruby's Instagram!) much in the last two years, so maybe I should catch you up on things. I've been teaching in the IB program at a charter school in Brooklyn since September of 2017. Originally hired to teach Theory of Knowledge and IB Psychology (not something I was ever trained for!), this year I am back to teaching Theory of Knowledge and  IB Art. I try to maintain a healthy work/life balance (although sometimes it feels like work is winning). Outside of work this year I took a couple trapeze lessons with a coworker, tried to teach myself banjo, (a nearly lifelong goal which I hope to move forward with), continue to play in the community orchestra, and still enjoy doing yoga and making art when I can.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/004_Intro_Tom.md
+  ---
+  extraclasses: boxed
+  ---
+  <span class="voice--tom voice--unprefixed">
+  Hello! What have I been up to? I'm still an Engineering Manager at Schoology. I've had a chance to manage many people now and find seeing them succeed and grow and work well together very rewarding. I still make it a point to go to at least one Broadway show a month. And I still enjoy exploring NYC whenever I can. (This photo is at one of our favorite new restaurants in our neighborhood.)
+  </span>
+#+END_SRC
+
+** Trip to Vermont
+
+#+BEGIN_SRC markdown :tangle 2018/005_Vermont_Sugar_Shack.md
+  ---
+  top: 2
+  left: 2
+  width: 60
+  extraclasses: boxed
+  ---
+  Our first trip this year was going up to Vermont in February. Our friends Micah and Geera invited us into their home for dinner with their family. They also showed us around Shelburne Museum, where we saw this wood carving of a sugar shack.
+
+  We also spent time there relaxing, watching the Olympics, and spending an afternoon at the Von Trapp Brewery with Kayleigh and Alex.
+#+END_SRC
+
+** Weird Al Concert
+
+#+BEGIN_SRC markdown :tangle 2018/006_Weird_Al.md
+  ---
+  top: 5
+  left: 5
+  width: 90
+  extraclasses: boxed
+  ---
+  <span class="voice--tom" style="font-size: 2em; line-height: 1.5em;">
+  WE SAW WEIRD AL YANKOVIC AT THE APOLLO!
+  </span>
+#+END_SRC
+
+** Trip to the Dominican Republic
+
+#+BEGIN_SRC markdown :tangle 2018/007_DR_Intro.md
+  ---
+  top: 2
+  left: 2
+  width: 35
+  extraclasses: boxed
+  ---
+  We went with our friend Molly Jane to the Dominican Republic in April for Spring Break. We visited Dave and Jen there, Teresa and Molly Jane's former coworkers from their time teaching in Dubai.
+
+  It was a nice getaway, going from the cold and wet NYC weather to blue skies and clear turquoise water.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/008_DR_Cave_Entering.md
+  ---
+  top: 2
+  left: 1
+  width: 30
+  extraclasses: boxed
+  ---
+  Our first outing in the DR was going to Los Tres Ojos ("The Three Eyes") in Santo Domingo with Dave and Jen. It's a park right in the city where, a long time ago, they discovered three underground lakes and caves.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/009_DR_Cave_Lake.md
+  ---
+  top: 2
+  left: 62
+  width: 35
+  extraclasses: boxed
+  ---
+  More recently they found this, a fourth lake, the biggest and deepest. It's not considered one of the "eyes", though, because it has an opening to the surface.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/010_DR_Cave_Boat.md
+  ---
+  top: 5
+  left: 2
+  width: 40
+  extraclasses: boxed
+  ---
+  The most memorable part of exploring the caves for us was taking this raft across the second lake. This is the only way to get to the fourth lake. How they operate it is as unique as the experience of being on an underground lake: rather than use a motor or oars, the operator simply pulls the raft along a rope attached on both shores.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/011_DR_Waterfall.md
+  ---
+  top: 5
+  extraclasses: boxed
+  ---
+  On the Samana Peninsula we went on horseback to see Limon Waterfall.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/012_DR_Pineapple.md
+  ---
+  top: 5
+  left: 2
+  width: 50
+  extraclasses: boxed
+  ---
+  After taking a quick swim at the base of the waterfall, we hiked back to the horses, where we were encouraged to stop for a drink. After seeing how they were made we couldn't turn it down.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/013_DR_Snorkeling.md
+  ---
+  extraclasses: boxed
+  ---
+  We also went snorkeling in the ocean, a first for both of us. The tour took us to two different spots, one off the shore of a small island, and the other here, right above a shallow ship wreck. The schools of fish that made the sunken ship their home were mesmerizing.
+#+END_SRC
+
+** The Great Saunter
+
+#+BEGIN_SRC markdown :tangle 2018/014_Coney_Island.md
+  ---
+  top: 65
+  left: 51
+  width: 45
+  extraclasses: boxed
+  ---
+  In the spring we spent most of our weekends going for hours-long walks. We both like exploring cities on foot. This photo is from one of our longest walks: the walk from our apartment in Fort Greene down to Coney Island about 10 miles.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/015_Great_Saunter_Walking.md
+  ---
+  top: 2
+  left: 1
+  width: 55
+  extraclasses: boxed
+  ---
+  All that walking wasn't just for fun though; we were also preparing for The Great Saunter, a trek around the island of Manhattan done in a single day by about 1,500 people. It's organized by the Shore Walkers group as a fundraiser for preserving NYC's shores and walkways.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/016_Great_Saunter_Map.md
+  ---
+  top: 1
+  left: 1
+  width: 40
+  extraclasses: boxed
+  ---
+  The walk was 33 ½ miles, and we made it in about 11 ½ hours with a total of one hour of breaks. It was exhausting and exciting and long and beautiful. We saw parts of Manhattan we didn't even know existed, like a little red lighthouse under the George Washington Bridge, or the expansive forests of Inwood Hill Park.
+#+END_SRC
+
+** Trip to Quebec City
+
+#+BEGIN_SRC markdown :tangle 2018/017_Canada_Yearbook.md
+  ---
+  top: 78
+  left: 5
+  width: 90
+  extraclasses: boxed
+  ---
+  <span class="voice--teresa">
+  2018 would have been my mom's 50th high school reunion from Marymount in Quebec City. Since she could not be there, her high school classmates invited me and my sister, Carole, (and Tom and Tim) to attend the reunion in her place. It was such an honor to be included in the festivities, and such an emotional experience meeting so many people we'd hear stories of but had never met before. While they saw our mother in us, we saw parts of her in them, getting to know her in ways we hadn't been able to before.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/018_Canada_Tour.md
+  ---
+  extraclasses: boxed
+  ---
+  Since many classmates from Marymount no longer live in Quebec city, part of the reunion included a walking tour of the city, led by the older sister of one of mom/Lisa's classmates. It was enlightening to hear about not only the history of the city, but about all of the high school memories of the women as they walked around together.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/019_Canada_Quebec_Chateau.md
+  ---
+  extraclasses: boxed
+  ---
+  We also made sure to have a little time for ourselves, walking by the Château Frontenac, through the Plains of Abraham, and driving together to Île d'Orléans. It was a good way and a beautiful place to contemplate our Mom's life and her legacy.
+#+END_SRC
+
+** First Trip to Iowa
+
+#+BEGIN_SRC markdown :tangle 2018/020_Iowa_Grandma_Jean.md
+  ---
+  top: 4
+  left: 67
+  width: 30
+  extraclasses: boxed
+  ---
+  <span class="voice--teresa">
+  We hadn't been back to Iowa since our great wedding road trip, so for my birthday we stayed with my dad in Stanton for a week. We saw loads of family including aunts and uncles; first, second, third cousins, including once and twice removed; and all of their spouses. I also was able to spend some quality time with my Grandma Jean, talking about life, flipping through photo albums, and swinging on an assortment of porch swings.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/021_Iowa_Airplane.md
+  ---
+  top: 72
+  left: 10
+  width: 80
+  extraclasses: boxed
+  ---
+  <span class="voice--teresa">
+  While in Iowa, I was able to do things that I wouldn't have the chance to do living in NYC. At my dad's he taught me some basic wood-turning on his lathe, I was able to pick some vegetables in his garden, and I rode in my Uncle Doug's Cessna Skyhawk, receiving an incredible tour of southwest Iowa as I'd never seen it before. The whole trip to Iowa was a reminder to slow down, to take time to work with my hands, and of the restorative possibilities of long conversations with people who've known you your whole life.
+  </span>
+#+END_SRC
+
+** Trip to Portugal
+
+#+BEGIN_SRC markdown :tangle 2018/022_Portugal_Intro.md
+  ---
+  top: 7
+  left: 54
+  width: 40
+  extraclasses: boxed
+  ---
+  At the end of July we spent 10 days in Portugal. We split our time mostly between Lisbon and Porto, making each city our base for a bunch of day trips into the countryside.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/023_Portugal_Wine_With_A_View.md
+  ---
+  top: 70
+  left: 20
+  width: 60
+  extraclasses: boxed
+  ---
+  We walked all around Lisbon, and on a whim decided to stop at the Castelo de São Jorge. We're so glad we did! It had an archaeological site showing buildings from three different centuries, starting with the Moors. And, as you can see here, an amazing view.
+
+  <span class="voice--tom">
+  I think the name of this wine stand chain in Lisbon sums up our trip well: "Wine With a View".
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/024_Portugal_Castle_in_Trees.md
+  ---
+  top: 2
+  left: 55
+  width: 43
+  extraclasses: boxed
+  ---
+  In Sintra, our first day trip from Lisbon, we arrived to find a forest covered in an early morning mist. It felt like we drove into a fairy tale, like Robin Hood could appear at any moment.
+
+  <span class="voice--tom">
+  Walking through the forest on our way to the first castle, I turned and saw something through the trees: a castle appeared out of the clouds!
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/025_Portugal_Castle_Exterior.md
+  ---
+  top: 83
+  left: 20
+  width: 60
+  extraclasses: boxed
+  ---
+  As we got closer we saw that the castle we saw was Pena Palace, a brightly colored building that any Disney princess would have felt right at home in.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/027_Portugal_Grotto_House.md
+  ---
+  top: 5
+  left: 36
+  width: 60
+  extraclasses: boxed
+  ---
+  Our second stop for the day was the Quinta da Regaleira, a maze of grottoes, fountains, structures, and walkways. On the right is the main palace, where the creator of the property lived.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/028_Portugal_Grotto_Well.md
+  ---
+  top: 1
+  left: 1
+  width: 40
+  extraclasses: boxed
+  ---
+  This is definitely one of the highlights of the Quinta da Regaleira: the Initiation Well. The story is that knights would descend the well (which has a specifically chosen number of steps based on Tarot mysticism) into darkness, then find their way back out into the light via a maze of tunnels at the bottom.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/029_Portugal_Oceanarium.md
+  ---
+  top: 50
+  left: 48
+  width: 50
+  extraclasses: boxed
+  ---
+  <span class="voice--tom">
+  We also visited the Oceanarium in Lisbon, which one of my coworkers recommended. The centerpiece is a massive aquarium, the largest in Europe. Four "spokes" go off from there, each representing one of the oceanic climates of the world.
+  </span>
+
+  <span class="voice--tom voice--continued">
+  This octopus was fascinating, moving all over the tank. At one point in this video you can see it start to change color slightly to blend in with the rocks.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/030_Portugal_Jousting.md
+  ---
+  top: 65
+  left: 63
+  width: 35
+  extraclasses: boxed
+  ---
+  To split up our trip from Lisbon to Porto, we stopped for a night in Obidos. We chose the city because they have converted a medieval castle into a hotel, and we couldn't pass that up. But, even better? It was the last weekend of their annual Medieval Festival, complete with jousting, music, mead, and of course ...
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/031_Portugal_Costumes.md
+  ---
+  top: 90
+  left: 46
+  width: 12
+  extraclasses: boxed
+  ---
+  Costumes!
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/032_Portugal_Francesinha.md
+  ---
+  top: 2
+  left: 37
+  width: 60
+  extraclasses: boxed
+  ---
+  In Porto we were told we have to try their signature meal, Francesinha. It's a croque-madame turned up to 11: filled with ham, multiple types of sausage, and roast beef; covered with cheese and a beer sauce; and topped with a fried egg.
+
+  <span class="voice--tom">
+  Our Airbnb host warned us about the sandwich when we get there, saying: "Only for lunch. Never for dinner. Then walk for hours."
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/033_Portugal_Bookstore.md
+  ---
+  top: 81
+  left: 20
+  width: 60
+  extraclasses: boxed
+  ---
+  We also stopped in the Lello & Irmão bookstore, often rated one of the most beautiful bookstores in the world. It's said to have inspired J.K. Rowling to write the Harry Potter series.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/034_Portugal_Barrels.md
+  ---
+  top: 59
+  left: 2
+  width: 40
+  extraclasses: boxed
+  ---
+  Tasting the wines -- especially ports -- from the Douro Valley was one of the reasons we chose Portugal. So of course we needed to go to a port lodge. We chose Graham's. Their tour was interesting, and their port delicious.
+
+  <span class="voice--tom">
+  We tried Sir Winston Churchill's favorite port, and a port they just recently bottled for the recent Royal Wedding in England, which just so happened to be exactly as old as I am!
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/035_Portugal_Douro.md
+  ---
+  top: 67
+  left: 15
+  width: 70
+  extraclasses: boxed
+  ---
+  Often billed as one of the most beautiful views in a wine country anywhere in the world, we absolutely had to go into the Douro Valley itself. We joined a tour, coincidentally ending up in a car with two other couples from New Jersey. Our tour guide Manuel took us all over the valley, including a boat ride on the Douro River itself. He also regaled us with stories, keeping us laughing the whole day.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/036_Portugal_Church.md
+  ---
+  top: 65
+  left: 3
+  width: 50
+  extraclasses: boxed
+  ---
+  Our last day trip from Porto was to Braga to see the Bom Jesus do Monte. It's famous for its very long staircase, which is a pilgrimage site.
+
+  <span class="voice--tom">
+  Some people choose to climb the stairs on their knees as part of their pilgrimage. After just walking up them normally, I feel safe saying that is crazy! I was glad to hear they at least wear knee pads.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/037_Portugal_Balcony.md
+  ---
+  top: 63
+  left: 58
+  width: 40
+  extraclasses: boxed
+  ---
+  For our last night in Portugal, back in Lisbon, we chose an apartment that promised an amazing view of the city.
+
+  <span class="voice--tom">
+  As you can see from the look on Teresa's face, the view didn't disappoint. Watching the sun set over the city with a glass of wine and some delicious cheese was the perfect way to end our trip.
+  </span>
+#+END_SRC
+
+** Trips to Lake Placid
+
+#+BEGIN_SRC markdown :tangle 2018/038_Lake_Placid_Ski_Jumping.md
+  ---
+  top: 5
+  left: 2
+  width: 37
+  extraclasses: boxed
+  ---
+  <span class="voice--teresa">
+  In September, Carole and Tim were passing through New York during their 3-month road trip through Canada and the US. I was insistent that they come to Lake Placid, a place that I have really come to love (not to mention the people who live there). While Carole and Tim were with us, we all went and did some Lake Placid things that I've never done before, like to go the Olympic ski jumps -- and see some teenagers do their summer training runs off of them!
+  </span>
+
+  <span class="voice--teresa voice--continued">
+  We've made a lot of trips to Lake Placid this year (once a month since July), and all of them have been memorable, from celebrating Tom's grandma Nonnie's 95th birthday, to sewing Halloween costumes with Tom's mom Marsha in her home studio, to spending Thanksgiving and Christmas with the Smalls.
+  </span>
+#+END_SRC
+
+** Anniversary in NYC
+
+#+BEGIN_SRC markdown :tangle 2018/039_NYC_Anniversary_Hotel.md
+  ---
+  top: 83
+  left: 3
+  width: 50
+  extraclasses: boxed
+  ---
+  We chose to spend our wedding anniversary in NYC this year. We stayed in a fancy hotel in Manhattan with a view of Central Park. It was unfortunately foggy all weekend, but we still enjoyed the view, and the experience of being a tourist in Manhattan.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/040_NYC_Anniversary_Met.md
+  ---
+  top: 74
+  left: 3
+  width: 50
+  extraclasses: boxed
+  ---
+  The main event for our anniversary weekend was going to the Metropolitan Opera to see La Bohème.
+
+  <span class="voice--teresa">
+  I've seen the outside of the Met many times, on my way to and from orchestra rehearsal every week. It was exciting to get the chance to finally see how much more beautiful it is from the inside.
+  </span>
+#+END_SRC
+
+** Apple Picking "Upstate"
+
+#+BEGIN_SRC markdown :tangle 2018/041_Apple_Picking_Tom.md
+  ---
+  top: 3
+  left: 63
+  width: 34
+  extraclasses: boxed
+  ---
+  <span class="voice--tom">
+  This was another exciting first: Taking Teresa apple picking! We went "upstate" for a day trip in mid October. We tasted some delicious apples, got warm apple cider donuts, and came home with way too many appley things.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/042_Apple_Picking_Teresa.md
+  ---
+  extraclasses: boxed
+  ---
+  <span class="voice--teresa">
+  Apple picking is a part of New York culture that I didn't know was a "thing" until I moved here. I grew up picking apples (and plums and berries and herbs and vegetables) in my yard growing up, but I was told that those experiences didn't count as "going apple picking." So here I am, fulfilling my New York cultural duties, picking apples.
+  </span>
+#+END_SRC
+
+** Second Trip to Iowa
+
+#+BEGIN_SRC markdown :tangle 2018/043_Iowa_Christmas.md
+  ---
+  top: 5
+  left: 46
+  width: 50
+  extraclasses: boxed
+  ---
+  <span class="voice--teresa">
+  My Grandma Jean had a stroke in November, and died in early December. This photo was taken at my uncle's house in Iowa on the day of her funeral. I was so happy to have seen her this summer, and was able to return with Tom to celebrate her life. It was the first time all of her grandchildren were in the same place at the same time, we decided, in nearly 18 years. She would have been pleased to have us all in the same room, eating her Swedish rye bread and tea ring, spending time together.
+  </span>
+
+  <span class="voice--teresa voice--continued">
+  Before she passed away, I asked my dad what her favorite Christmas carol was so I could play it at home, and he told me it was "Santa Lucia." The holiday of Santa Lucia is a Swedish tradition and is celebrated every year in the town in Iowa where Grandma lived her entire life. Perhaps fittingly, then, her funeral actually fell on the day of Stanton's annual Santa Lucia celebration, which we attended later that night with our cousins and their kids.
+  </span>
+
+  <span class="voice--teresa voice--continued">
+  It is also in memory of Grandma Jean that this year's card was designed, combining the "wildlife" of New York City where I live now with the Swedish symbols of Santa Lucia and the tomtar, or gnomes, who make appearances around Christmas. Swedish Christmas foods and traditions were always such a joy for me growing up, and there are many that I plan to learn and to keep in our household for years to come.
+  </span>
+#+END_SRC
+
+** Trip to Oregon
+
+#+BEGIN_SRC markdown :tangle 2018/044_Oregon_Wine_Tasting.md
+  ---
+  extraclasses: boxed
+  ---
+  <span class="voice--teresa">
+  After Christmas we flew out to Oregon to visit my sister Carole and her husband Tim for New Year's Eve. We visited a few wineries in the Wilammette Valley, tasting mostly Pinot Noirs and some experimental wines made in clay barrels, which were my favorite.
+  </span>
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/045_Oregon_Cannon_Beach_Walking.md
+  ---
+  top: 77
+  left: 3
+  width: 60
+  extraclasses: boxed
+  ---
+  It wasn't all wine though. We took a day trip to Cannon Beach and some of the small coastal towns nearby. It was low tide when we arrived so we were able to walk all the way out to the well known Haystack Rock.
+#+END_SRC
+
+#+BEGIN_SRC markdown :tangle 2018/046_Oregon_Cannon_Beach_Rocks.md
+  ---
+  top: 86
+  left: 54
+  width: 44
+  extraclasses: boxed
+  ---
+  If you ever seen *The Goonies* then you may recognize these rocks -- they're the ones on the beach where their adventures begin!
+#+END_SRC
+
+** Copyright
+
+#+BEGIN_SRC markdown :tangle 2018/099_Copyright.md
+  ---
+  top: 60
+  left: 2
+  width: 40
+  extraclasses: boxed
+  ---
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+  </a>
+
+  This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+  If you are interested in using any of these photos,
+  please [get in touch](mailto:thesmallgrens@gmail.com)
+  for attribution information.
+
+  It was built using [Expose](https://github.com/Jack000/Expose).
+#+END_SRC
