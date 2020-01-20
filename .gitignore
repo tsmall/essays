@@ -3,3 +3,12 @@ _site
 src/2015/*.md
 src/2016
 src/2018
+
+# Don't include the Markdown files (since they're generated from the org file).
+# Also, don't check in any of the images or videos; my general backup process
+# will take care of those.
+src/2019/*.jpg
+src/2019/*.jpeg
+src/2019/*.md
+src/2019/*.mov
+src/2019/*.mp4
