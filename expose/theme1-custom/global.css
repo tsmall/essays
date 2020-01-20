@@ -702,6 +702,14 @@ video.image{
     list-style-type: none;
 }
 
+.dark p {
+    color: rgb(35, 35, 35);
+}
+
+.dark a:hover {
+    color: rgb(65, 65, 65);
+}
+
 .voice {}
 .voice--teresa {
 	font-family: "Ropa Sans";
