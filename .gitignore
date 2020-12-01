@@ -12,3 +12,7 @@ src/2019/*.jpeg
 src/2019/*.md
 src/2019/*.mov
 src/2019/*.mp4
+
+# Don't include the images and videos, since I'm still relying on my other
+# backup system to track those.
+src/2020/media/*
