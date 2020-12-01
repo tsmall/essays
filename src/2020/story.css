@@ -1,12 +1,16 @@
+/* Default Styles */
+
 a {
-  color: rgb(255, 255, 255);
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+  text-decoration: none;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 2vw;
   line-height: 1.4em;
 }
-body, div, img, p {
+body, div, img, p, ol {
   margin: 0;
   padding: 0;
 }
@@ -19,17 +23,50 @@ img, video {
 }
 p {
   cursor: default;
-  padding: 1em;
-  position: absolute;
-  left: 1vw;
-  top: 1vw;
 }
-p:not(.title) {
+
+/* Navigation Bar */
+
+main p:not(.title) {
   background: rgba(35, 35, 35, 0.7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 5px;
   color: rgb(255, 255, 255);
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #FFF;
+  display: flex;
+  font-weight: 100;
+  height: 3vw;
+  left: 0;
+  padding: 2vw;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+nav ol {
+  display: inline-flex;
+  list-style-type: none;
+  margin-left: auto;
+  width: 30vw;
+}
+nav li {
+  cursor: default;
+  margin-left: 1vw;
+}
+
+/* Main Content */
+
+main p {
+  padding: 1em;
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
 }
 .title {
   font-size: 7vw;
