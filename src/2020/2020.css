@@ -1,5 +1,9 @@
 /* Default Styles */
 
+html {
+  /* Prevent font scaling in landscape while allowing user zoom */
+  -webkit-text-size-adjust: 100%;
+}
 a {
   border-bottom: 1px solid #FFF;
   color: #FFF;
